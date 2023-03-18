@@ -1,5 +1,4 @@
-name：publish python package to PYPI
-
+name: Publish Python 🐍 distributions 📦 to PyPI
 on:
   # 当master分支有push时，触发action
   push: 
