@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8", errors="ignore") as f:
     long_description = f.read()
     setuptools.setup(
     name='nonebot_plugin_rrc',
-    version='0.0.4',
+    version='0.0.5',
     author='QingmuCat',
     author_email='1242550160@qq.com',
     url='https://github.com/QingMuCat/nonebot_plugin_rrc',
@@ -19,8 +19,8 @@ with open("README.md", "r", encoding="utf-8", errors="ignore") as f:
     include_package_data=True,
     platforms="any",
     install_requires=[
-            'fastapi==0.89.1',
-            'nonebot-adapter-onebot==2.2.1',
-            'nonebot2==2.0.0rc3',
+            'fastapi',
+            'nonebot-adapter-onebot',
+            'nonebot2',
     ],
     )
