@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8", errors="ignore") as f:
     long_description = f.read()
     setuptools.setup(
     name='nonebot_plugin_rrc',
-    version='0.0.5',
+    version='0.0.6',
     author='QingmuCat',
     author_email='1242550160@qq.com',
     url='https://github.com/QingMuCat/nonebot_plugin_rrc',
